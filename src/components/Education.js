@@ -31,7 +31,7 @@ class Education extends React.Component {
                                             "key": "Duration",
                                             "value": study.durationInYears + " year(s)"
                                         }
-                                    ].map(function (object, i) {
+                                    ].map(function (object) {
                                         return <div>
                                             <Row>
                                                 <Col className="formLabel">{object.key}:</Col>
@@ -59,7 +59,7 @@ class Education extends React.Component {
                                 <Col>
                                     <a className="certificateLink" href={certification.verificationLink}>See certificate</a>
                                 </Col>
-                            </Row> : certification.number
+                            </Row> : certification.number;
                         return <Media key={i}>
                             <Media left top href={certification.url}>
                                 <Media object src={certification.logo} alt={certification.title}/>

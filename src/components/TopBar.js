@@ -22,7 +22,7 @@ class TopBar extends Component {
             <Navbar color="dark" dark expand="md">
                 <Container>
                     <NavbarBrand href="/">
-                        <img src={feather_pen} className="profile-pic" alt="Oswaldo Díaz"/>
+                        <img src={feather_pen} className="profile-pic" alt="Fernando Simon"/>
                         <span>Crosstown</span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>

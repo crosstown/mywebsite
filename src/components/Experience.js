@@ -6,9 +6,9 @@ import { Media } from "reactstrap";
 
 function getDuration(duration) {
     const years = parseInt(duration / 12);
-    const months = (duration > 12)? duration % 12 : duration
+    const months = (duration > 12)? duration % 12 : duration;
     return (years > 0? years + " year" + (years > 1? "s": "") + " and " : "") + (months > 0? months + " month" + (months > 1? "s": "") : "");
-};
+}
 
 class Experience extends React.Component {
     render() {
