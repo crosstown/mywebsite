@@ -1,0 +1,155 @@
+{
+  "title": "Software Engineer",
+  "summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+  "studies": [
+    {
+      "institute": "University of Bridgeport",
+      "logo": "/images/ub.png",
+      "url": "http://www.bridgeport.edu/",
+      "title": "Bachelor of Science in Computer Science",
+      "durationInYears": "4",
+      "graduationYear": 2016
+    },
+    {
+      "institute": "Gateway Community College",
+      "logo": "/images/gateway.png",
+      "url": "http://www.bridgeport.edu/",
+      "title": "Associate of Science in Computer Science with Networking",
+      "durationInYears": "2",
+      "graduationYear": 2013
+    }
+
+  ],
+  "certifications": [
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/learning-the-javascript-language-2",
+      "title": "Learning the JavaScript Language",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019-04-01",
+      "verificationLink": "/images/linkedin/LearningTheJavascriptLanguage2.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/learning-spring-with-spring-boot",
+      "title": "Learning Spring with Spring Boot",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2017-10-13",
+      "expiryDate": "2020-09-01",
+      "verificationLink": "/images/linkedin/LearningSpringWithSpringBoot.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/creating-your-first-restful-spring-boot-microservice-with-jpa",
+      "title": "Creating Your First RESTful Spring Boot Microservice with JPA",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019-01-23",
+      "verificationLink": "/images/linkedin/CreatingYourFirstRestfulSpringBootMicroserviceWithJpa.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/extending-securing-and-dockerizing-spring-boot-microservices",
+      "title": "Extending, Securing and Dockerizing Spring Boot Microservices",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019-01-29",
+      "verificationLink": "/images/linkedin/ExtendingSecuringAndDockerizingSpringBootMicroservices.pdf"
+    },
+    {
+      "logo": "/images/lynda.png",
+      "url": "https://www.linkedin.com/learning/creating-your-first-restful-spring-boot-microservice-with-jpa",
+      "title": "Building Web Services with Java EE",
+      "issuer": "Lynda.com",
+      "issueDate": "2017-01-19",
+      "expiryDate": "2020-09-01",
+      "number": "ID: 142581"
+
+    }
+
+  ],
+  "experiences": [
+    {
+      "companyName": "Larsen & Toubro Infotech Ltd",
+      "logo": "/images/lti.png",
+      "url": "https://www.lntinfotech.com/",
+      "roles": [
+        {
+          "title": "Software developer",
+          "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
+          "startDate": "2018-01-01",
+          "currentJob": true,
+          "location": "Santiago Province, Chile"
+        },
+        {
+          "title": "Agile Java Developer",
+          "description": "Own the processes of squad, develop code, develop user stories, estimates and other attachments, collaboratively with Product Owner through formal and informal meetings, manage the risks of committed backlog items, manage the quality of processes, output, and throughput.",
+          "startDate": "2016-07-01",
+          "endDate": "2018-01-01",
+          "location": "Santiago Province, Chile"
+        }
+      ]
+    },
+    {
+      "companyName": "University of Bridgeport",
+      "logo": "/images/ub.png",
+      "url": "http://www.bridgeport.edu",
+      "roles": [
+        {
+          "title": "Computer Lab Lead Assistant",
+          "description": "In charge of planning schedules, supervision of all assistants, guiding with project developments tasks and question related to software engineering.",
+          "startDate": "2015-08-01",
+          "endDate": "2016-08-01",
+          "location": "Bridgeport, Connecticut"
+        },
+        {
+          "title": "Teaching Assistant",
+          "description": "In charge of building applications for public entities working with backend (J2EE, Srping, Hibernate, OracleDB) and frontend (ExtJs) through REST web services. Responsible of applying good design patterns allowing the increment of software easier and faster on each iteration.",
+          "startDate": "2015-01-01",
+          "endDate": "2015-08-01",
+          "location": "Bridgeport, Connecticut"
+        }
+      ]
+    },
+    {
+      "companyName": "Synergy-GB",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/synergy.jpeg",
+      "url": "http://www.alaya.cl/",
+      "roles": [
+        {
+          "title": "Project Lead",
+          "description": "Project engineer with interest on design and develop of software components responsible for managing the logic and systems integration, that allow communicate web and mobile applications with the data sources of a business. With experiences developing REST/SOAP web services in Java and design and modeling of data for SQL and No-SQL databases.",
+          "startDate": "2014-04-01",
+          "endDate": "2015-10-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    },
+    {
+      "companyName": "IBM",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/ibm.png",
+      "url": "https://www.ibm.com/ve-es/",
+      "roles": [
+        {
+          "title": "Sap Consultant",
+          "description": "ABAP and Portal Consultant with interest of developing ABAP programs that can be use at a high level for other departments and also with abilities to install and migrate a Portal SAP system.",
+          "startDate": "2013-06-01",
+          "endDate": "2014-03-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    },
+    {
+      "companyName": "4Geeks",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/4geeks.png",
+      "url": "https://www.4geeksacademy.co",
+      "roles": [
+        {
+          "title": "Web programmer",
+          "description": "In charge of developing web services using the framework Django used for a e-commerce web site",
+          "startDate": "2012-11-01",
+          "endDate": "2013-03-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    }
+  ]
+}
