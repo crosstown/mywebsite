@@ -69,15 +69,15 @@
   "experiences": [
     {
       "companyName": "Larsen & Toubro Infotech Ltd",
-      "logo": "/images/lti.png",
+      "logo": "/images/lti2.jpg",
       "url": "https://www.lntinfotech.com/",
       "roles": [
         {
           "title": "Software developer",
           "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
-          "startDate": "2018-01-01",
+          "startDate": "2017-07-01",
           "currentJob": true,
-          "location": "Santiago Province, Chile"
+          "location": "Farmington, Connecticut"
         },
         {
           "title": "Agile Java Developer",
@@ -110,16 +110,16 @@
       ]
     },
     {
-      "companyName": "Synergy-GB",
-      "logo": "https://d37pqi2hh7xyas.cloudfront.net/synergy.jpeg",
+      "companyName": "Randstad at Quest Labs",
+      "logo": "/images/rand.jpeg",
       "url": "http://www.alaya.cl/",
       "roles": [
         {
-          "title": "Project Lead",
-          "description": "Project engineer with interest on design and develop of software components responsible for managing the logic and systems integration, that allow communicate web and mobile applications with the data sources of a business. With experiences developing REST/SOAP web services in Java and design and modeling of data for SQL and No-SQL databases.",
-          "startDate": "2014-04-01",
-          "endDate": "2015-10-01",
-          "location": "Caracas, Venezuela"
+          "title": "IT/Admin",
+          "description": "IT administrator with interest in networking, I was in charge of Installing, configuring, and troubleshooting desktop systems, workstations, servers, and network issues in a heterogeneous environment. I also provided initial response and managed problem resolution process for outages and technical issues. Provided support on servers, network, and desktop based software and applications. I was able to conduct day-to-day technical support to employee’s desktop systems software & hardware. I highly developed verbal and written communications. Demonstrated knowledge of TCP/IP networking and the OSI model and also was able to participate in the development of information technology and infrastructure projects",
+          "startDate": "2013-12-01",
+          "endDate": "2014-08-01",
+          "location": "Waliingford, Connecticut"
         }
       ]
     },
