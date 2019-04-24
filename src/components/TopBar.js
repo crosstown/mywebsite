@@ -32,7 +32,7 @@ class TopBar extends Component {
                                 <NavLink href="/posts/">Posts</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/resume/">Resume</NavLink>
+                                <NavLink href="/resume/fernando.pdf">Resume</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="/about/">About</NavLink>

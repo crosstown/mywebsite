@@ -20,7 +20,7 @@ class Education extends React.Component {
                                 {
                                     [
                                         {
-                                            "key": "Title",
+                                            "key": "Degree",
                                             "value": study.title
                                         },
                                         {

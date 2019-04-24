@@ -10,8 +10,10 @@ class Info extends Component {
                     <Card.Body>
                         <Card.Title>Fernando Simon</Card.Title>
                         <Card.Text>
-                            Some quick example to build on the card titel and make up the bulk of
-                            the card's content.
+                            Hello, I'm Fernando. I'm a passionate software developer with in-depth understanding of the
+                            principles and best practices of SCM process.
+                            Besides programming I enjoy music, travel, and tech innovation. I'm also interested in
+                            renewable energy, human rights and animal welfare
                         </Card.Text>
                     </Card.Body>
                 </Card>
