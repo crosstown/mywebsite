@@ -5,10 +5,12 @@ import moment from "moment";
 import { Media } from "reactstrap";
 
 function getDuration(duration) {
+    moment.suppressDeprecationWarnings = true;
     const years = parseInt(duration / 12);
     const months = (duration > 12)? duration % 12 : duration;
-    return (years > 0? years + " year" + (years > 1? "s": "") + " and " : "") + (months > 0? months + " month" + (months > 1? "s": "") : "");
-}
+    console.log(months);
+    return ((years > 0? years + " year" + (years > 1? "s": "") + " and " : "") + (months > 0? months + " month" + (months > 1? "s": "") : ""));
+};
 
 class Experience extends React.Component {
     render() {
@@ -18,11 +20,12 @@ class Experience extends React.Component {
                     {profile.experiences.map(function (experience, i) {
                         moment.locale('en');
 
-                            const totalDuration = experience.roles.reduce(function (cnt, role) {
-                            const startDate = moment(role.startDate);
-                            const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
-                            const duration = moment.duration(timeEnd.diff(startDate));
-                            return Number(cnt) + Number(duration.asMonths().toPrecision(1));
+                                const totalDuration = experience.roles.reduce(function (cnt, role) {
+                                const startDate = moment(role.startDate);
+                                const timeEnd = moment(role.currentJob ? new Date() : new Date(role.endDate));
+                                const duration = moment.duration(timeEnd.diff(startDate));
+                                return Number(cnt) + Number(duration.asMonths().toPrecision(1));
+
                         }, 0);
 
                         return (
@@ -45,7 +48,7 @@ class Experience extends React.Component {
                                             return <div key={i}>
                                                 <h5>{role.title}</h5>
                                                 <span
-                                                    className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')} ({getDuration(duration)})</span>
+                                                    className="jobDuration">{startDate.format('MMMM YYYY')} - {role.currentJob ?  'Present' : timeEnd.format('MMMM YYYY')} ({getDuration(duration)})</span>
                                                 <span className="jobLocation">{role.location}</span>
                                                 <p className="jobDescription">{role.description}</p>
                                             </div>

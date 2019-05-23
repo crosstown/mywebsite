@@ -11,7 +11,7 @@ class Info extends Component {
                         <Card.Title>Fernando Simon</Card.Title>
                         <Card.Text>
                             Hello, I'm Fernando. I'm a passionate software developer with in-depth understanding of the
-                            principles and best practices of SCM process.
+                            principles and best practices of <a href='https://en.wikipedia.org/wiki/Software_configuration_management' >SCM</a> process.
                             Besides programming I enjoy music, travel, and tech innovation. I'm also interested in
                             renewable energy, human rights and animal welfare
                         </Card.Text>

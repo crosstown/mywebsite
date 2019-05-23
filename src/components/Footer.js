@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 class Footer extends Component {
     render() {
@@ -15,6 +15,8 @@ class Footer extends Component {
                         <FontAwesomeIcon icon={faGithub} size="2x" /></a>
                     <a href="https://www.facebook.com/fernando.simon.16" className="facebook social">
                         <FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                    <a href="https://www.twitter.com/crosstown74" className="twitter social">
+                        <FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                 </Container>
             </footer>
         )

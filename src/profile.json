@@ -31,21 +31,21 @@
   "certifications": [
     {
       "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/",
+      "title": "",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019",
+      "verificationLink": "/images/linkedin/"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
       "url": "https://www.linkedin.com/learning/learning-the-javascript-language-2",
       "title": "Learning the JavaScript Language",
       "issuer": "Linkedin Learning",
       "issueDate": "2019-04-01",
       "verificationLink": "/images/linkedin/LearningTheJavascriptLanguage2.pdf"
     },
-    {
-      "logo": "/images/linkedinlearning.jpeg",
-      "url": "https://www.linkedin.com/learning/learning-spring-with-spring-boot",
-      "title": "Learning Spring with Spring Boot",
-      "issuer": "Linkedin Learning",
-      "issueDate": "2017-10-13",
-      "expiryDate": "2020-09-01",
-      "verificationLink": "/images/linkedin/LearningSpringWithSpringBoot.pdf"
-    },
+
     {
       "logo": "/images/linkedinlearning.jpeg",
       "url": "https://www.linkedin.com/learning/creating-your-first-restful-spring-boot-microservice-with-jpa",
@@ -61,6 +61,55 @@
       "issuer": "Linkedin Learning",
       "issueDate": "2019-01-29",
       "verificationLink": "/images/linkedin/ExtendingSecuringAndDockerizingSpringBootMicroservices.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/learning-functional-programming-with-javascript",
+      "title": "Learning Functional Programming with JavaScript",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019-01-08",
+      "verificationLink": "/images/linkedin/LearningFunctionalProgrammingWithJavascript.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/react-js-essential-training-3",
+      "title": "React.js Essential Training",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2019-01-22",
+      "verificationLink": "/images/linkedin/ReactjsEssentialTraining.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/jhipster-build-and-deploy-spring-boot-microservices",
+      "title": "JHipster: Build and Deploy Spring Boot Microservices",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2018-12-17",
+      "verificationLink": "/images/linkedin/JhipsterBuildAndDeploySpringBootMicroservices.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/react-working-with-apis",
+      "title": "React: Working with APIs",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2018-12-23",
+      "verificationLink": "/images/linkedin/ReactWorkingWithApis.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/running-jenkins-on-aws",
+      "title": "Running Jenkins on AWS",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2018-12-25",
+      "verificationLink": "/images/linkedin/RunningJenkinsOnAws.pdf"
+    },
+    {
+      "logo": "/images/linkedinlearning.jpeg",
+      "url": "https://www.linkedin.com/learning/learning-spring-with-spring-boot",
+      "title": "Learning Spring with Spring Boot",
+      "issuer": "Linkedin Learning",
+      "issueDate": "2017-10-13",
+      "expiryDate": "2020-09-01",
+      "verificationLink": "/images/linkedin/LearningSpringWithSpringBoot.pdf"
     },
     {
       "logo": "/images/lynda.png",
@@ -83,7 +132,7 @@
         {
           "title": "Freelancer Programmer",
           "description": "Application analysis and design. Development using Java and Spring most of the time. Research on how to integrate features that meet the client requirements. Analyze clients needs and provide recommendations as needed. Create an appropriate solution for the task at hand. Ensure that solutions are in line with the client's expectations",
-          "startDate": "2018-09-01",
+          "startDate": "2014-03-01",
           "currentJob": true,
           "location": "Milford, Connecticut"
         }
@@ -91,21 +140,23 @@
     },
     {
       "companyName": "Larsen & Toubro Infotech Ltd",
-      "logo": "/images/lti2.jpg",
+      "logo": "/images/perr.jpg",
       "url": "https://www.lntinfotech.com/",
       "roles": [
         {
           "title": "Software developer",
           "description": "Refactored a monolithic application and built new microservices with Java and Spring Boot. Made used of RDBMS(Oracle). Worked on cloud-based platform like AWS and AZURE. Extensively worked with Version Control System GIT and some Bitbucket. Created automation and CI/CD pipelines with tools like Jenkins for continous builds and deployments. Used Kubernetes for orchestration of Docker containers.",
           "startDate": "2017-10-01",
-          "endDate": "2018-08-01",
+          "endDate": "2018-04-01",
+          "currentJob": false,
           "location": "Farmington, Connecticut"
         },
         {
           "title": "Application Support",
           "description": "Responding and resolving customer issues in regards to in-house software. Created a plan to help avoid problems in first place by regularly evaluating the current state of the application and identifying aspects which could be improved and recommended changes in order to facilitate those improvements.",
-          "startDate": "2017-07-01",
+          "startDate": "2017-08-01",
           "endDate": "2017-10-01",
+          "currentJob": false,
           "location": "Farmington, Connecticut"
         }
       ]
@@ -117,16 +168,16 @@
       "roles": [
         {
           "title": "Computer Lab Lead Assistant",
-          "description": "In charge of planning schedules, supervision of all assistants, guiding with project developments tasks and question related to software engineering.",
+          "description": "In charge of planning schedules, supervision of all assistants, guiding with project developments tasks and question related to software engineering. Supported Cisco switches and routers as well as MS Office, Matlab and internally developed software",
           "startDate": "2015-08-01",
-          "endDate": "2016-08-01",
+          "endDate": "2016-06-01",
           "location": "Bridgeport, Connecticut"
         },
         {
           "title": "Teaching Assistant",
           "description": "Reinforcing lessons presented by professor by reviewing material with students one-on-one or in small groups. Enforced school and class rules to help students proper behavior. Helped professor with recordkeeping, such as tracking attendence and calculating grades. Helped professor prepare for lectures by getting material ready or setting up equipment, such as computers and projectors",
           "startDate": "2015-01-01",
-          "endDate": "2015-05-07",
+          "endDate": "2015-06-01",
           "location": "Bridgeport, Connecticut"
         }
       ]
@@ -138,9 +189,9 @@
       "roles": [
         {
           "title": "IT/Admin",
-          "description": "IT administrator with interest in networking, I was in charge of Installing, configuring, and troubleshooting desktop systems, workstations, servers, and network issues in a heterogeneous environment. I also provided initial response and managed problem resolution process for outages and technical issues. Provided support on servers, network, and desktop based software and applications. I was able to conduct day-to-day technical support to employee’s desktop systems software & hardware. I highly developed verbal and written communications. Demonstrated knowledge of TCP/IP networking and the OSI model and also was able to participate in the development of information technology and infrastructure projects",
+          "description": "IT administrator with interest in networking, I was in charge of Installing, configuring, and troubleshooting desktop systems, workstations, servers, and network issues in a heterogeneous environment. I also provided initial response and managed problem resolution process for outages and technical issues. Provided support on servers, network, and desktop based software and applications. I was able to conduct day-to-day technical support to employee’s desktop systems software & hardware. I highly developed verbal and written communications. Demonstrated knowledge of TCP/IP networking and the OSI model and also was able to participate in the development of information technology and infrastructure projects. Implemented a schedule of patches installation on servers that leveraged 25% in resources availability",
           "startDate": "2013-12-01",
-          "endDate": "2014-08-01",
+          "endDate": "2014-09-01",
           "location": "Waliingford, Connecticut"
         }
       ]
